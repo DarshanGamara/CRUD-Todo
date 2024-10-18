@@ -1,0 +1,210 @@
+* {
+    font-family: sans-serif;
+}
+
+#large {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgray;
+    
+}
+
+#small {
+    width: 30%;
+    height: 100%;
+    padding: 0.5rem 0 2rem 1rem;
+    margin: 0 5px 0 0;
+    
+}
+
+#big {
+    width: 80%;
+    height: 1000px;
+    padding: 0 0 0 2rem;
+    border-left: 5px solid lightgrey;
+    display: block;
+}
+
+h4 {
+    color: green;
+    margin: 1rem 0 2rem 0;
+}
+
+h3 {
+    color: brown;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 0 1rem 0 0;
+    color: gray;
+}
+
+.main {
+    font: inherit;
+    width: 80%;
+    padding: 0 0 0.5rem 0;
+    margin: 0 0 1rem 0;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3); 
+}
+
+.last {
+    font-size: inherit;
+    width: 45%;
+    background-color: #ff0055;
+    color: white;
+    border: 1px solid #ff0055;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+}
+
+#third {
+    display: block;
+}
+
+button {
+    font-size: inherit;
+    background-color: #ff0055;
+    color: white;
+    border: 1px solid #ff0055;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff0099;
+}
+
+ul {
+    /*list-style-type: number;*/
+    list-style-type: none;
+    cursor: pointer;
+    
+}
+
+ul li {
+    box-shadow: 0px 0px 10px 2px #ccc;
+    margin: 0 0 0.5rem 0;
+    
+}
+
+.second {
+    width: 80%;
+}
+
+h2 {
+    color: #ff0099;
+}
+label {
+    font-size: 15px;
+    display: block;
+    font-weight: 700;
+    color: green;
+    margin: 0 0 0.5rem 0;
+    
+}
+
+select {
+    list-style-type: none;
+    width: 45%;
+    font: inherit;
+    margin: 0 0 4rem 0;
+}
+
+select:hover{
+    border-color: rgb(219, 219, 11);
+}
+
+textarea {
+    width: 45%;
+    height: 100px;
+    margin: 0 0 1rem 0;
+}
+
+textarea:hover {
+    border-color: rgb(219, 219, 11);
+}
+
+.inp2 {
+    font: inherit;
+    width: 45%;
+    padding: 0 0 0.5rem 0;
+    margin: 0 0 1rem 0;
+    font-size: 15px;
+    border-radius: 5px;
+    
+}
+.inp2:hover,
+.inp2:active {
+        border-color: rgb(194, 194, 15);
+}
+
+.d {
+    width: 45%;
+    border-radius: 5px;
+    margin: 0 0 1rem 0;
+}
+
+.d:hover,
+.d:active {
+    border-color: rgb(219, 219, 11);
+}
+
+
+.dv5 {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    /*border: 1px solid black;*/
+    margin: 0 0 0.5rem 0;
+    align-items: center;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    cursor: pointer;
+}
+.dv5 > h5 p {
+    flex-direction: row;
+}
+
+
+#hp {
+    background-color: maroon;
+    color: white;
+    width: 40px;
+    height: 20px;
+    font-size: 12px;
+    border: 2px solid black;
+}
+
+.dBtn {
+    background-color: red;
+    color: white;
+    width: 40px;
+    height: 20px;
+    font-size: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* #todoListArea {
+    margin-top: 20px; //
+     Space above the todo list 
+  }
+  
+  #todoContainer {
+    margin-top: 10px;  //Additional space above the individual todo items 
+  }
+  
+  .dv5 {
+    border: 1px solid #ccc; // Add a border around each todo 
+    padding: 10px;
+    margin: 5px 0;  //.second between todos 
+    
+  } */
+  
